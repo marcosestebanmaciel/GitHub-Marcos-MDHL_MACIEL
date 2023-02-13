@@ -3,3 +3,11 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+.logo{
+    height: 100px;
+}
+
+.ilustración{
+    height: 200px;
+}
