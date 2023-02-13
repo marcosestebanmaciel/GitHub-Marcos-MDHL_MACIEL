@@ -4,10 +4,79 @@
     box-sizing: border-box;
 }
 
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+header{
+    width: 80vw;
+    height: 33vh;
+    margin: 20px 10%;
+}
+
+nav{
+    border: 2px solid black;
+    background-image: url(./Assets/design1_image2.jpg);
+    background-size: cover;
+    background-position: 0 30%;
+    height: 30vh;
+}
+
+main{
+    width: 80vw;
+    height: 60vh;
+    margin: 20px 10%;
+}
+
+figure{
+    display: inline-block;
+}
+
+article{
+    width: 35vw;
+    margin: 10px 40px;
+    display: inline-block;
+}
+
 .logo{
-    height: 100px;
+    padding-top: 0px;
+    width: 10vw;
 }
 
 .ilustración{
-    height: 200px;
+    margin: 10px;
+    width: 20vw;
 }
+
+h1{
+    font-style: oblique;
+}
+
+h2{
+    border: 2px solid black;
+    text-align: center;
+}
+
+.btn-green{
+    color: white;
+    background-color: green;
+    display: inline-block;
+    padding: 5px 15px;
+    margin: 5px;
+    position: relative;
+    top: -20px;
+    left: 70%;
+}
+
+.btn-blue{
+    color: white;
+    background-color: blue;
+    display: inline-block;
+    padding: 5px 15px;
+    margin: 5px;
+    position: relative;
+    top: -20px;
+    left: 70%;
+}
+
