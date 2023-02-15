@@ -32,7 +32,7 @@ main{
     margin: 20px 10%;
 }
 
-div{
+.conteiner{
     display: flex;
     align-items: flex-start;
 }
@@ -78,7 +78,7 @@ h2{
     margin: 5px;
     position: relative;
     top: -20px;
-    left: 70%;
+    left: 55%;
 }
 
 .btn-blue{
@@ -90,10 +90,30 @@ h2{
     margin: 5px;
     position: relative;
     top: -20px;
-    left: 70%;
+    left: 55%;
 }
 
 .email{
     font-size: x-large;
+}
+
+#rulist{
+    font-size: large;
+    border-bottom: 3px double #5D3891;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    gap: .5rem;
+    padding: .3rem;
+    margin: 20px;
+}
+
+#prule{
+    font-size: large;
+    text-align: center;
+}
+
+#mgames{
+    font-size: large;
 }
 
