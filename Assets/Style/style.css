@@ -2,6 +2,8 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
 }
 
 body{
@@ -24,36 +26,45 @@ nav{
 }
 
 main{
+    background-image: url(../images/istockphoto-166319867-170667a.jpg);
+    background-size: cover;
     width: 80vw;
-    height: 60vh;
     margin: 20px 10%;
 }
 
+div{
+    display: flex;
+    align-items: flex-start;
+}
+
 figure{
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
 }
 
 article{
-    width: 35vw;
     margin: 10px 40px;
     display: inline-block;
 }
 
 .logo{
-    padding-top: 0px;
+    margin: 2rem;
     width: 10vw;
 }
 
 .ilustración{
-    margin: 10px;
-    width: 20vw;
+    width: 15vw;
+    margin: 2rem;
 }
 
 h1{
-    font-style: oblique;
+    color: #c3ce31;
+    background-color: rgb(43, 44, 42);
 }
 
 h2{
+    color: #c3ce31;
+    background-color: rgb(43, 44, 42);
     border: 2px solid black;
     text-align: center;
 }
@@ -61,6 +72,7 @@ h2{
 .btn-green{
     color: white;
     background-color: green;
+    text-decoration: none;
     display: inline-block;
     padding: 5px 15px;
     margin: 5px;
@@ -72,11 +84,16 @@ h2{
 .btn-blue{
     color: white;
     background-color: blue;
+    text-decoration: none;
     display: inline-block;
     padding: 5px 15px;
     margin: 5px;
     position: relative;
     top: -20px;
     left: 70%;
+}
+
+.email{
+    font-size: x-large;
 }
 
