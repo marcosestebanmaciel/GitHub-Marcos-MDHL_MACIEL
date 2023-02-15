@@ -17,7 +17,7 @@ header{
 
 nav{
     border: 2px solid black;
-    background-image: url(./Assets/design1_image2.jpg);
+    background-image: url(../design1_image2.jpg);
     background-size: cover;
     background-position: 0 30%;
     height: 30vh;
