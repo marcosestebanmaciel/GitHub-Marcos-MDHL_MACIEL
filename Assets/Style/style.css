@@ -99,13 +99,14 @@ h2{
 
 #rulist{
     font-size: large;
-    border-bottom: 3px double #5D3891;
+    background-color: #f5f5f5ab;
+    border-radius: 2rem;
     display: flex;
     flex-flow: column wrap;
     align-items: center;
-    gap: .5rem;
-    padding: .3rem;
-    margin: 20px;
+    gap: 5rem;
+    padding: 5rem;
+    margin: 30px;
 }
 
 #mgames{
@@ -115,5 +116,38 @@ h2{
 #prule{
     font-size: large;
     text-align: center;
+    margin-top: 2rem;
+}
+
+dt{
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+}
+
+li{
+    margin-bottom: .5rem;
+}
+
+ul{
+    margin-top: .5rem;
+}
+
+table{
+    width: 70vw;
+    background-color: #f5f5f5ab;
+    border-radius: 2rem;
+    padding: 1rem;
+    margin: 3rem;
+}
+
+th, td{
+    padding: .5rem;
+}
+
+.infoadd{
+    background-color: #f5f5f5ab;
+    border-radius: .5rem;
+    margin: 3rem;
+    padding: 1rem;
 }
 
