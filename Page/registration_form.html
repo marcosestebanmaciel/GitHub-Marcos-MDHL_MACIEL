@@ -23,7 +23,7 @@
     <main>
         <section>
             <h2>Registration Form</h2>
-            <form action="./show_data.html" method="get">
+            <form action="./show_data.html" method="get" id="reg">
                 <fieldset>
                     <label>
                         Player's First Name:
@@ -37,7 +37,7 @@
                 <fieldset>
                     <label>
                         Steet Address:
-                        <input name="addres" type="text">
+                        <input id="direc" name="addres" type="text">
                     </label>
                 </fieldset>
                 <fieldset>
@@ -170,7 +170,7 @@
                     </p>
                     <label>
                         Parent/GuardianSignature:
-                        <input type="text" name="p/gs" placeholder="By entering your name below">
+                        <input id="authoriz" type="text" name="p/gs" placeholder="By entering your name below">
                     </label>
                 </fieldset>
                 <fieldset>
@@ -178,33 +178,33 @@
                         Date:
                         <input type="date" name="date">
                     </label>
-                    <input type="submit" value="Submit">
+                    <input id="env" type="submit" value="Submit">
                 </fieldset>
             </form>
         </section>
         <section>
-            <h3>School Maps</h3>
-            <article>
+            <h3 id="titulmap">School Maps</h3>
+            <article class="maps">
                 <h4>A J Katzenmaier</h4>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2949.780458165102!2d-87.8649932852748!3d42.32588114525327!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880f932fbc6ba7cd%3A0xcf2bbe275c6da815!2sAJ%20Katzenmaier%20Academy!5e0!3m2!1ses-419!2sar!4v1676631338570!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </article>
-            <article>
+            <article class="maps">
                 <h4>Greenbay</h4>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2950.010418154173!2d-87.87107038527499!3d42.32097654556276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880f933bce5af881%3A0x740a7a7d548adce1!2sGreen%20Bay%20School%20(Pre-K)!5e0!3m2!1ses-419!2sar!4v1676631422419!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </article>
-            <article>
+            <article class="maps">
                 <h4>Howard A Yeager</h4>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2950.26987667376!2d-87.8560697852752!3d42.315442245912074!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880feccac26b07c5%3A0x8b51fa5d6efe771a!2sHoward%20A.%20Yeager%20School%20(PREK-K)!5e0!3m2!1ses-419!2sar!4v1676631497122!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </article>
-            <article>
+            <article class="maps">
                 <h4>Marjorie P Hart</h4>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2968.289653643574!2d-87.64816138528995!3d41.92962687016841!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd30f2637f9d7%3A0xdbff5d5dfcfcfa35!2sMarjorie%20P%20Hart%20Elementary!5e0!3m2!1ses-419!2sar!4v1676631561444!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </article>
-            <article>
+            <article class="maps">
                 <h4>North Elementary</h4>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6040065.9003166845!2d-92.32246373023577!3d42.33717324454054!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fed26d3692cf5%3A0x8611023901d6c74a!2sEvelyn%20Alexander%20School%20(K-3)!5e0!3m2!1ses-419!2sar!4v1676631935511!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </article>
-            <article>
+            <article class="maps">
                 <h4>South Elementary</h4>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3035208.14053302!2d-90.12725576647638!3d42.02022106448853!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fb7ad3c474b63%3A0x93bdf85af2a839ed!2sSOUTH%20ELEMENTARY%20SCHOOL!5e0!3m2!1ses-419!2sar!4v1676632267307!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </article>
