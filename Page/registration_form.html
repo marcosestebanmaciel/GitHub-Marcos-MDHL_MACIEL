@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/style/style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Registration Form</title>
+</head>
+<body>
+    <header>
+        <h1>Mighty Ducks Hockey League</h1>
+        <nav>
+            <a href="../index.html" class="btn-blue">Home</a>
+            <a href="./about_mdhl.html" class="btn-blue">About</a>
+            <a href="./contact.html" class="btn-blue">Contact</a>
+            <a href="./games.html" class="btn-blue">Games</a>
+            <a href="./rules.html" class="btn-blue">Rules</a>
+            <a href="#" class="btn-green">Registration</a>
+        </nav>   
+    </header>
+    <main>
+        <section>
+            <h2>Registration Form</h2>
+            <form action="./show_data.html" method="get">
+                <fieldset>
+                    <label>
+                        Player's First Name:
+                        <input name="first_n" type="text">
+                    </label>
+                    <label>
+                        Last Name:
+                        <input name="last_n" type="text">
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <label>
+                        Steet Address:
+                        <input name="addres" type="text">
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <label>
+                        City:
+                        <input name="city" type="text">
+                    </label>
+                    <label>
+                        Zip Code:
+                        <input type="number" name="code">
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <label>
+                        Birth Date(mm/dd/yyyy):
+                        <input type="date" name="birth_d">
+                    </label>
+                    Gender:
+                    <label>
+                        Female
+                        <input type="radio" name="gender" value="F">
+                    </label>
+                    <label>
+                        Male
+                        <input type="radio" name="gender" value="M">
+                    </label>
+                </fieldset>
+                <fieldset>
+                    Grade:
+                    <label>
+                        <input type="radio" name="grade" value="pre">
+                        Pre-School
+                    </label>
+                    <label>
+                        <input type="radio" name="grade" value="1">
+                        1st
+                    </label>
+                    <label>
+                        <input type="radio" name="grade" value="2">
+                        2nd
+                    </label>
+                    <label>
+                        <input type="radio" name="grade" value="3">
+                        3rd
+                    </label>
+                    <label>
+                        <input type="radio" name="grade" value="4">
+                        4th
+                    </label>
+                    <label>
+                        <input type="radio" name="grade" value="5">
+                        5th
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <legend>Which elementary school do you live near?</legend>
+                    <label>
+                        Closest School:
+                        <select name="School">
+                            <option value="ajk">AJ Katzenmainer</option>
+                            <option value="green">Greenbay</option>
+                            <option value="how">Howard A Yeager</option>
+                            <option value="marj">Marjorie P Hart</option>
+                            <option value="north">North Elementary</option>
+                            <option value="south">South Elementary</option>
+                        </select>
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <legend>What position(s) do you normally play?</legend>
+                    <label>
+                        <input type="checkbox" name="position1" value="forward">
+                        Forward
+                    </label>
+                    <label>
+                        <input type="checkbox" name="position2" value="defense">
+                        Defense
+                    </label>
+                    <label>
+                        <input type="checkbox" name="position3" value="midfiled">
+                        Midfield
+                    </label>
+                    <label>
+                        <input type="checkbox" name="position4" value="goalkeeper">
+                        Goalkeeper
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <legend>Uniform Size:</legend>
+                    <label>
+                        <input type="radio" name="u_size" value="YS">
+                        Youth Small
+                    </label>
+                    <label>
+                        <input type="radio" name="u_size" value="YM">
+                        Youth Medium
+                    </label>
+                    <label>
+                        <input type="radio" name="u_size" value="YL">
+                        Youth Large
+                    </label>
+                    <label>
+                        <input type="radio" name="u_size" value="S">
+                        Small
+                    </label>
+                    <label>
+                        <input type="radio" name="u_size" value="M">
+                        M
+                    </label>
+                    <label>
+                        <input type="radio" name="u_size" value="L">
+                        Large
+                    </label>
+                    <label>
+                        <input type="radio" name="u_size" value="EL">
+                        Extra-Large
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <h3>Permission to Play</h3>
+                    <p>
+                        I, the parent or guardian of the minor registrant,agree that the registrant and I will abide by all the rules of the Mighty Ducks Hockey League (MDHL).
+                        In recognizing the posibility of physical injury associated with hockey and in consideration for the "League" accepting the registrantfor its hockey programs and activities,
+                        Ihereby release, discharge, and/or otherwise indemnify MDHL, their employees and associated personnel and volunteers, including the facilities used for practices and games,
+                        againstany claim by or on behalf of the registrant as a result of the registrant's participation in the proramand/orbeing transported to or from MDHL sponsored activities,
+                        which transpotation.
+                    </p>
+                    <p>
+                        By signing below, I herebyagree andauthorizethe above. In addition, by signing below, lalso acknowledge that I have read the cancellation policy and agree to its terms.
+                    </p>
+                    <label>
+                        Parent/GuardianSignature:
+                        <input type="text" name="p/gs" placeholder="By entering your name below">
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <label>
+                        Date:
+                        <input type="date" name="date">
+                    </label>
+                    <input type="submit" value="Submit">
+                </fieldset>
+            </form>
+        </section>
+        <section>
+            <h3>School Maps</h3>
+            <article>
+                <h4>A J Katzenmaier</h4>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2949.780458165102!2d-87.8649932852748!3d42.32588114525327!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880f932fbc6ba7cd%3A0xcf2bbe275c6da815!2sAJ%20Katzenmaier%20Academy!5e0!3m2!1ses-419!2sar!4v1676631338570!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </article>
+            <article>
+                <h4>Greenbay</h4>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2950.010418154173!2d-87.87107038527499!3d42.32097654556276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880f933bce5af881%3A0x740a7a7d548adce1!2sGreen%20Bay%20School%20(Pre-K)!5e0!3m2!1ses-419!2sar!4v1676631422419!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </article>
+            <article>
+                <h4>Howard A Yeager</h4>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2950.26987667376!2d-87.8560697852752!3d42.315442245912074!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880feccac26b07c5%3A0x8b51fa5d6efe771a!2sHoward%20A.%20Yeager%20School%20(PREK-K)!5e0!3m2!1ses-419!2sar!4v1676631497122!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </article>
+            <article>
+                <h4>Marjorie P Hart</h4>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2968.289653643574!2d-87.64816138528995!3d41.92962687016841!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd30f2637f9d7%3A0xdbff5d5dfcfcfa35!2sMarjorie%20P%20Hart%20Elementary!5e0!3m2!1ses-419!2sar!4v1676631561444!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </article>
+            <article>
+                <h4>North Elementary</h4>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6040065.9003166845!2d-92.32246373023577!3d42.33717324454054!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fed26d3692cf5%3A0x8611023901d6c74a!2sEvelyn%20Alexander%20School%20(K-3)!5e0!3m2!1ses-419!2sar!4v1676631935511!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </article>
+            <article>
+                <h4>South Elementary</h4>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3035208.14053302!2d-90.12725576647638!3d42.02022106448853!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fb7ad3c474b63%3A0x93bdf85af2a839ed!2sSOUTH%20ELEMENTARY%20SCHOOL!5e0!3m2!1ses-419!2sar!4v1676632267307!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </article>
+        </section>
+    </main>
+</body>
+</html>

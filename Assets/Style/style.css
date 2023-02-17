@@ -60,6 +60,7 @@ article{
 h1{
     color: #c3ce31;
     background-color: rgb(43, 44, 42);
+    padding-left: 2rem;
 }
 
 h2{
@@ -74,8 +75,8 @@ h2{
     background-color: green;
     text-decoration: none;
     display: inline-block;
-    padding: 5px 15px;
-    margin: 5px;
+    padding: 5px 5px;
+    margin: 2px;
     position: relative;
     top: -20px;
     left: 55%;
@@ -86,8 +87,8 @@ h2{
     background-color: blue;
     text-decoration: none;
     display: inline-block;
-    padding: 5px 15px;
-    margin: 5px;
+    padding: 5px 5px;
+    margin: 2px;
     position: relative;
     top: -20px;
     left: 55%;
